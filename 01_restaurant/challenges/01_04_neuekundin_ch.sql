@@ -8,4 +8,4 @@
 INSERT INTO Kunden(Vorname, Nachname, Email, Adresse, Stadt, State, Telefon, Geburtstag)
   VALUES('Anna','Smith','asmith@samoca.org','479 Lapis Dr.','Memphis','TN','555-555-1212','1973-07-21');
 
-SELECT * from Kunden order by KundenID desc;
+SELECT * from Kunden order by KundenID desc limit 3;
